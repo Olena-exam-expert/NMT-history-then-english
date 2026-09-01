@@ -678,7 +678,7 @@
         </div>
     </header>
 
-    <div class="score-summary-card" id="scoreSummaryCard">
+   <div class="score-summary-card" id="scoreSummaryCard">
         <h2>Тестування завершено!</h2>
         <p style="color: var(--text-muted);">Ваші підсумкові результати пробного НМТ з історії України:</p>
         <div class="score-boxes">
@@ -695,7 +695,10 @@
                 <div class="score-box-lbl">Виходів із вкладки</div>
             </div>
         </div>
-        <button class="action-btn pdf-btn" onclick="downloadPDF()">Завантажити PDF із результатами</button>
+        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 12px;">
+            <button class="action-btn pdf-btn" style="margin-top: 0;" onclick="downloadPDF()">Завантажити PDF із результатами</button>
+            <a href="https://olena-exam-expert.github.io/-mock-English-/" target="_blank" class="action-btn pdf-btn" style="margin-top: 0; background: var(--success); text-decoration: none; display: inline-flex; align-items: center;">Перейти до наступної частини тесту</a>
+        </div>
     </div>
 
     <div class="nav-matrix-card">
