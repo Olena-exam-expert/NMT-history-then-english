@@ -653,22 +653,12 @@
         <h2>Вітаємо на тестуванні!</h2>
         <p class="modal-desc">Введіть ваше ім'я та прізвище для початку Пробного НМТ з історії України.</p>
 
-        <div class="modal-overlay" id="nameModal">
-    <div class="modal-card">
-        <h2>Пробний НМТ з історії України.</h2>
-        <p class="modal-desc">Введіть ПІБ для початку тестування (30 питань).</p>
-        
         <div class="modal-warning">
-            <strong style="display: block; margin-bottom: 6px;">⚠️ Увага! Важливі правила проходження тесту:</strong>
-            <ul style="padding-left: 18px; margin: 0;">
-                <li>На виконання тесту відведено <strong>60 хвилин</strong>.</li>
-                <li>У системі працює трекер відволікань. Перемикання вкладок, згортання браузера або перехід в інші вікна буде зафіксовано в підсумковому результаті.</li>
-                <li>Ви можете пропускати питання та повертатися до них у будь-який момент за допомогою навігаційної панелі.</li>
-                <li>В кінці цієї частини тесту вас чекатиме наступна.</li>
-            </ul>
+            <strong>⚠️ Працюйте без відволікань!</strong>
+            Намагайтеся не залишати цю сторінку під час виконання — усі переходи між вкладками та вікнами автоматично трекаються.
         </div>
 
-        <input type="text" id="studentNameInput" placeholder="ПІБ учня..." required />
+        <input type="text" id="studentNameInput" placeholder="Введіть ПІБ учня..." required autofocus />
         <button class="action-btn" style="width: 100%;" onclick="startAssessment()">Розпочати тест</button>
     </div>
 </div>
